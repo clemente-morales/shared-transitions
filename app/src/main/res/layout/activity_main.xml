@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="lania.com.mx.customshadow.MainActivity">
+    tools:context="lania.com.mx.shared_transition.MainActivity">
 
     <FrameLayout
         android:id="@+id/mainContainer"
