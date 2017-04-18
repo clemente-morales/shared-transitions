@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/reward_gradient_shadow" android:height="10dp"/>
+
+    <item android:bottom="10dp" >
+
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp" />
+
+            <gradient
+                android:angle="225"
+                android:centerColor="@color/mf_special_offer_gradient2"
+                android:endColor="@color/mf_special_offer_gradient1"
+                android:startColor="@color/mf_special_offer_gradient3" />
+
+        </shape>
+    </item>
+</layer-list>
